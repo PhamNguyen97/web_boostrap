@@ -1,0 +1,18 @@
+.header-menu{
+	position: relative;
+}
+
+.header-menu .menu-content{
+	display: none;
+	position: absolute;
+	top:0;
+	left:0;
+	width: 30%;
+}
+.header-menu .countries *{
+	font-size: 0.8rem;
+}
+
+.header-menu .countries .dropdown{
+	/*overflow: hidden;*/
+}
