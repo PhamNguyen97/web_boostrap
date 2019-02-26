@@ -1,18 +1,23 @@
-.header-menu{
+.header{
+	font-size: 1.2rem;
+}
+
+.logo{
+	padding: 1rem;
+}
+
+.mask-on-image{
 	position: relative;
+	height: 100%;
 }
 
-.header-menu .menu-content{
-	display: none;
+.mask-on-image img{
+	height: 100%;
+}
+.mask-on-image .overlay{
 	position: absolute;
+	width: 100%;
+	height: 100%;
 	top:0;
-	left:0;
-	width: 30%;
-}
-.header-menu .countries *{
-	font-size: 0.8rem;
-}
-
-.header-menu .countries .dropdown{
-	/*overflow: hidden;*/
+	background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(0,0,0,0.16249999999999998) 63%, rgba(0,0,0,0.4446428571428571) 100%);
 }
